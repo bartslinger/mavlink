@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- Mapture contact info:                                      -->
+  <!-- company URL: http://www.mapture.ai                         -->
+  <!-- email contact: bart@mapture.ai                             -->
+  <!-- mavlink ID range: 10100 - 10199                            -->
+  <messages>
+    <message id="10100" name="MAPTURE_OBJECT_DETECT">
+      <description>Coordinates and orientation of detected object</description>
+      <field type="float" name="x" units="m">X Position</field>
+      <field type="float" name="y" units="m">Y Position</field>
+      <field type="float" name="width" units="m">Width</field>
+      <field type="float" name="height" units="m">Height</field>
+      <field type="float" name="angle" units="deg">Angle (North = 0.0)</field>
+    </message>
+  </messages>
+</mavlink>
