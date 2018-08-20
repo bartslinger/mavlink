@@ -4,6 +4,7 @@
   <!-- company URL: http://www.mapture.ai                         -->
   <!-- email contact: bart@mapture.ai                             -->
   <!-- mavlink ID range: 10100 - 10199                            -->
+  <include>common.xml</include>
   <messages>
     <message id="10100" name="MAPTURE_OBJECT_DETECT">
       <description>Coordinates and orientation of detected object</description>
